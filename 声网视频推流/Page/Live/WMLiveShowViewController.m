@@ -227,6 +227,7 @@
         dispatch_async(dispatch_get_main_queue(), ^() {
             [weakSelf joinChannel];
             [weakSelf stopPlayRing];
+            [weakSelf updateView:CallActive];
         });
     };
     
@@ -521,6 +522,7 @@
             
             self.tipLabel.text = [NSString stringWithFormat:@"%@呼叫你",self.remoteAccount];
             [self shouldRingForIncomingCall];
+             [_signalEngine queryUserStatus:self.remoteAccount];
             [self.hangUpBT mas_remakeConstraints:^(MASConstraintMaker *make) {
                 make.size.mas_equalTo(CGSizeMake(64.0f, 64.0f));
                 make.left.mas_equalTo(33);

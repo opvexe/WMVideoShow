@@ -24,12 +24,16 @@
 
 static NSString *channelRoom = @"ChannelRoom";  ///房间名
 
+-(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    [[WMClientSignal sharedCallClientSignal]login];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     self.navigationItem.title = @"信令登录";
     NSLog(@"SDK版本:%@",[AgoraRtcEngineKit getSdkVersion]);
-    [[WMClientSignal sharedCallClientSignal]login];
     [self initWithSubViews];
 }
 
@@ -39,7 +43,7 @@ static NSString *channelRoom = @"ChannelRoom";  ///房间名
         UITextField *iv = [[UITextField alloc] init];
         iv.placeholder = @"呼叫ID";
         iv.textAlignment = NSTextAlignmentCenter;
-        iv.layer.borderColor = [UIColor redColor].CGColor;
+        iv.layer.borderColor = [UIColor orangeColor].CGColor;
         iv.layer.masksToBounds = YES;
         iv.layer.borderWidth = 1.0f;
         [self.view addSubview:iv];
@@ -55,8 +59,8 @@ static NSString *channelRoom = @"ChannelRoom";  ///房间名
     _loginBT = ({
         UIButton *iv = [UIButton buttonWithType:UIButtonTypeCustom];
         [iv setTitle:@"进入直播频道" forState:UIControlStateNormal];
-        [iv setTitleColor:[UIColor orangeColor] forState:UIControlStateNormal];
-        iv.layer.borderColor = [UIColor redColor].CGColor;
+        [iv setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
+        iv.layer.borderColor = [UIColor orangeColor].CGColor;
         iv.layer.masksToBounds = YES;
         iv.layer.borderWidth = 1.0f;
         [iv addTarget:self action:@selector(Click:) forControlEvents:UIControlEventTouchUpInside];

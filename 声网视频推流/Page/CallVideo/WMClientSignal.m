@@ -46,7 +46,7 @@
     };
     
     self.callAgoraApi.onLog = ^(NSString *text) {
-        NSLog(@"打印日志:%@", text);
+//        NSLog(@"打印日志:%@", text);
     };
     
     self.callAgoraApi.onMessageSendSuccess = ^(NSString *messageID) {
