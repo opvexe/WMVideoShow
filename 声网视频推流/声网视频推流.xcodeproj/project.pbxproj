@@ -1,0 +1,820 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95FD743974DE22BFDCB9D552 /* libPods-声网视频推流UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49AE463DA05F8882DEB369F0 /* libPods-声网视频推流UITests.a */; };
+		B1A82A4C204C2090C48D8169 /* libPods-声网视频推流Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7706CAFF7396D6B417CEB2E4 /* libPods-声网视频推流Tests.a */; };
+		D0054A29209ADE3C00564F68 /* voip_call.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0054A26209ADE3C00564F68 /* voip_call.mp3 */; };
+		D0054A2A209ADE3C00564F68 /* voip_call.caf in Resources */ = {isa = PBXBuildFile; fileRef = D0054A27209ADE3C00564F68 /* voip_call.caf */; };
+		D0054A2B209ADE3C00564F68 /* voip_calling_ring.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0054A28209ADE3C00564F68 /* voip_calling_ring.mp3 */; };
+		D0054A6C209AFA5100564F68 /* NSString+WMCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = D0054A6B209AFA5100564F68 /* NSString+WMCategory.m */; };
+		D0054A6F209BEBB100564F68 /* WMTools.m in Sources */ = {isa = PBXBuildFile; fileRef = D0054A6E209BEBB100564F68 /* WMTools.m */; };
+		D0054A73209C036300564F68 /* WMClientSignal.m in Sources */ = {isa = PBXBuildFile; fileRef = D0054A72209C036300564F68 /* WMClientSignal.m */; };
+		D08B37722091737600CBDD4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D08B37712091737600CBDD4E /* AppDelegate.m */; };
+		D08B37752091737600CBDD4E /* WMSignLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D08B37742091737600CBDD4E /* WMSignLoginViewController.m */; };
+		D08B37782091737600CBDD4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D08B37762091737600CBDD4E /* Main.storyboard */; };
+		D08B377A2091737600CBDD4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D08B37792091737600CBDD4E /* Assets.xcassets */; };
+		D08B377D2091737600CBDD4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D08B377B2091737600CBDD4E /* LaunchScreen.storyboard */; };
+		D08B37802091737600CBDD4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D08B377F2091737600CBDD4E /* main.m */; };
+		D08B378A2091737700CBDD4E /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D08B37892091737700CBDD4E /* ______Tests.m */; };
+		D08B37952091737700CBDD4E /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D08B37942091737700CBDD4E /* ______UITests.m */; };
+		D08B37AE2091799F00CBDD4E /* AgoraSigKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D08B37AD2091799F00CBDD4E /* AgoraSigKit.framework */; };
+		D08B37B0209179E300CBDD4E /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D08B37AF209179E300CBDD4E /* libc++.tbd */; };
+		D08B37B920917DC200CBDD4E /* WMCertificateToken.m in Sources */ = {isa = PBXBuildFile; fileRef = D08B37B820917DC200CBDD4E /* WMCertificateToken.m */; };
+		D08B37BC2091A81100CBDD4E /* WMLiveShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D08B37BB2091A81100CBDD4E /* WMLiveShowViewController.m */; };
+		D08B37BF2091B2D600CBDD4E /* WMCallVideoKey.mm in Sources */ = {isa = PBXBuildFile; fileRef = D08B37BE2091B2D600CBDD4E /* WMCallVideoKey.mm */; };
+		E320CFB626D2125F5A9824F6 /* libPods-声网视频推流.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 480841A332E427B6D0E3C167 /* libPods-声网视频推流.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D08B37862091737700CBDD4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D08B37652091737600CBDD4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D08B376C2091737600CBDD4E;
+			remoteInfo = "声网视频推流";
+		};
+		D08B37912091737700CBDD4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D08B37652091737600CBDD4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D08B376C2091737600CBDD4E;
+			remoteInfo = "声网视频推流";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		480841A332E427B6D0E3C167 /* libPods-声网视频推流.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-声网视频推流.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49AE463DA05F8882DEB369F0 /* libPods-声网视频推流UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-声网视频推流UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F671448B5633ED8D7BAE601 /* Pods-声网视频推流UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-声网视频推流UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-声网视频推流UITests/Pods-声网视频推流UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		71AB3AF70BE9C32A8C842076 /* Pods-声网视频推流.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-声网视频推流.debug.xcconfig"; path = "Pods/Target Support Files/Pods-声网视频推流/Pods-声网视频推流.debug.xcconfig"; sourceTree = "<group>"; };
+		7706CAFF7396D6B417CEB2E4 /* libPods-声网视频推流Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-声网视频推流Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CAFB2B2C25265D055555E16 /* Pods-声网视频推流UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-声网视频推流UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-声网视频推流UITests/Pods-声网视频推流UITests.release.xcconfig"; sourceTree = "<group>"; };
+		A1E1004EA76810841BD9829D /* Pods-声网视频推流Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-声网视频推流Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-声网视频推流Tests/Pods-声网视频推流Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A7E81DB345111DB2CDA174F6 /* Pods-声网视频推流Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-声网视频推流Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-声网视频推流Tests/Pods-声网视频推流Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B485204CB8A96C3D861FFE2E /* Pods-声网视频推流.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-声网视频推流.release.xcconfig"; path = "Pods/Target Support Files/Pods-声网视频推流/Pods-声网视频推流.release.xcconfig"; sourceTree = "<group>"; };
+		D0054A26209ADE3C00564F68 /* voip_call.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = voip_call.mp3; sourceTree = "<group>"; };
+		D0054A27209ADE3C00564F68 /* voip_call.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = voip_call.caf; sourceTree = "<group>"; };
+		D0054A28209ADE3C00564F68 /* voip_calling_ring.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = voip_calling_ring.mp3; sourceTree = "<group>"; };
+		D0054A6A209AFA5100564F68 /* NSString+WMCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+WMCategory.h"; sourceTree = "<group>"; };
+		D0054A6B209AFA5100564F68 /* NSString+WMCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+WMCategory.m"; sourceTree = "<group>"; };
+		D0054A6D209BEBB100564F68 /* WMTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMTools.h; sourceTree = "<group>"; };
+		D0054A6E209BEBB100564F68 /* WMTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMTools.m; sourceTree = "<group>"; };
+		D0054A71209C036300564F68 /* WMClientSignal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMClientSignal.h; sourceTree = "<group>"; };
+		D0054A72209C036300564F68 /* WMClientSignal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMClientSignal.m; sourceTree = "<group>"; };
+		D08B376D2091737600CBDD4E /* 声网视频推流.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "声网视频推流.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D08B37702091737600CBDD4E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D08B37712091737600CBDD4E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D08B37732091737600CBDD4E /* WMSignLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMSignLoginViewController.h; sourceTree = "<group>"; };
+		D08B37742091737600CBDD4E /* WMSignLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMSignLoginViewController.m; sourceTree = "<group>"; };
+		D08B37772091737600CBDD4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D08B37792091737600CBDD4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D08B377C2091737600CBDD4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D08B377E2091737600CBDD4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D08B377F2091737600CBDD4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D08B37852091737700CBDD4E /* 声网视频推流Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "声网视频推流Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D08B37892091737700CBDD4E /* ______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______Tests.m"; sourceTree = "<group>"; };
+		D08B378B2091737700CBDD4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D08B37902091737700CBDD4E /* 声网视频推流UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "声网视频推流UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D08B37942091737700CBDD4E /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
+		D08B37962091737700CBDD4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D08B37AD2091799F00CBDD4E /* AgoraSigKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AgoraSigKit.framework; sourceTree = "<group>"; };
+		D08B37AF209179E300CBDD4E /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		D08B37B220917AAE00CBDD4E /* WMCommonDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMCommonDefines.h; sourceTree = "<group>"; };
+		D08B37B720917DC200CBDD4E /* WMCertificateToken.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMCertificateToken.h; sourceTree = "<group>"; };
+		D08B37B820917DC200CBDD4E /* WMCertificateToken.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMCertificateToken.m; sourceTree = "<group>"; };
+		D08B37BA2091A81100CBDD4E /* WMLiveShowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMLiveShowViewController.h; sourceTree = "<group>"; };
+		D08B37BB2091A81100CBDD4E /* WMLiveShowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMLiveShowViewController.m; sourceTree = "<group>"; };
+		D08B37BD2091B2D600CBDD4E /* WMCallVideoKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMCallVideoKey.h; sourceTree = "<group>"; };
+		D08B37BE2091B2D600CBDD4E /* WMCallVideoKey.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = WMCallVideoKey.mm; sourceTree = "<group>"; };
+		D08B37C32091B34100CBDD4E /* CallVideoUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallVideoUtils.h; sourceTree = "<group>"; };
+		D08B37C42091B34100CBDD4E /* DynamicKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicKey.h; sourceTree = "<group>"; };
+		D08B37C52091B34100CBDD4E /* DynamicKey2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicKey2.h; sourceTree = "<group>"; };
+		D08B37C62091B34100CBDD4E /* DynamicKey3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicKey3.h; sourceTree = "<group>"; };
+		D08B37C72091B34100CBDD4E /* DynamicKey4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicKey4.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D08B376A2091737600CBDD4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D08B37B0209179E300CBDD4E /* libc++.tbd in Frameworks */,
+				D08B37AE2091799F00CBDD4E /* AgoraSigKit.framework in Frameworks */,
+				E320CFB626D2125F5A9824F6 /* libPods-声网视频推流.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D08B37822091737700CBDD4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1A82A4C204C2090C48D8169 /* libPods-声网视频推流Tests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D08B378D2091737700CBDD4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95FD743974DE22BFDCB9D552 /* libPods-声网视频推流UITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27E0EBFFA03AA865D5EE15F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71AB3AF70BE9C32A8C842076 /* Pods-声网视频推流.debug.xcconfig */,
+				B485204CB8A96C3D861FFE2E /* Pods-声网视频推流.release.xcconfig */,
+				A1E1004EA76810841BD9829D /* Pods-声网视频推流Tests.debug.xcconfig */,
+				A7E81DB345111DB2CDA174F6 /* Pods-声网视频推流Tests.release.xcconfig */,
+				6F671448B5633ED8D7BAE601 /* Pods-声网视频推流UITests.debug.xcconfig */,
+				8CAFB2B2C25265D055555E16 /* Pods-声网视频推流UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		993A409F2DA4A96FB0FC20B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D08B37AF209179E300CBDD4E /* libc++.tbd */,
+				480841A332E427B6D0E3C167 /* libPods-声网视频推流.a */,
+				7706CAFF7396D6B417CEB2E4 /* libPods-声网视频推流Tests.a */,
+				49AE463DA05F8882DEB369F0 /* libPods-声网视频推流UITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0054A25209ADDD700564F68 /* CallVideo */ = {
+			isa = PBXGroup;
+			children = (
+				D0054A27209ADE3C00564F68 /* voip_call.caf */,
+				D0054A26209ADE3C00564F68 /* voip_call.mp3 */,
+				D0054A28209ADE3C00564F68 /* voip_calling_ring.mp3 */,
+			);
+			path = CallVideo;
+			sourceTree = "<group>";
+		};
+		D0054A69209AFA4000564F68 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				D0054A6A209AFA5100564F68 /* NSString+WMCategory.h */,
+				D0054A6B209AFA5100564F68 /* NSString+WMCategory.m */,
+				D0054A6D209BEBB100564F68 /* WMTools.h */,
+				D0054A6E209BEBB100564F68 /* WMTools.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		D0054A70209C034A00564F68 /* CallVideo */ = {
+			isa = PBXGroup;
+			children = (
+				D0054A71209C036300564F68 /* WMClientSignal.h */,
+				D0054A72209C036300564F68 /* WMClientSignal.m */,
+			);
+			path = CallVideo;
+			sourceTree = "<group>";
+		};
+		D08B37642091737600CBDD4E = {
+			isa = PBXGroup;
+			children = (
+				D0054A25209ADDD700564F68 /* CallVideo */,
+				D08B37B120917A8F00CBDD4E /* Macro */,
+				D08B37AA209176E000CBDD4E /* Vendor */,
+				D08B37A22091739000CBDD4E /* Page */,
+				D08B376F2091737600CBDD4E /* 声网视频推流 */,
+				D08B37882091737700CBDD4E /* 声网视频推流Tests */,
+				D08B37932091737700CBDD4E /* 声网视频推流UITests */,
+				D08B376E2091737600CBDD4E /* Products */,
+				27E0EBFFA03AA865D5EE15F4 /* Pods */,
+				993A409F2DA4A96FB0FC20B2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D08B376E2091737600CBDD4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D08B376D2091737600CBDD4E /* 声网视频推流.app */,
+				D08B37852091737700CBDD4E /* 声网视频推流Tests.xctest */,
+				D08B37902091737700CBDD4E /* 声网视频推流UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D08B376F2091737600CBDD4E /* 声网视频推流 */ = {
+			isa = PBXGroup;
+			children = (
+				D08B37702091737600CBDD4E /* AppDelegate.h */,
+				D08B37712091737600CBDD4E /* AppDelegate.m */,
+				D08B37732091737600CBDD4E /* WMSignLoginViewController.h */,
+				D08B37742091737600CBDD4E /* WMSignLoginViewController.m */,
+				D08B37762091737600CBDD4E /* Main.storyboard */,
+				D08B37792091737600CBDD4E /* Assets.xcassets */,
+				D08B377B2091737600CBDD4E /* LaunchScreen.storyboard */,
+				D08B377E2091737600CBDD4E /* Info.plist */,
+				D08B377F2091737600CBDD4E /* main.m */,
+			);
+			path = "声网视频推流";
+			sourceTree = "<group>";
+		};
+		D08B37882091737700CBDD4E /* 声网视频推流Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D08B37892091737700CBDD4E /* ______Tests.m */,
+				D08B378B2091737700CBDD4E /* Info.plist */,
+			);
+			path = "声网视频推流Tests";
+			sourceTree = "<group>";
+		};
+		D08B37932091737700CBDD4E /* 声网视频推流UITests */ = {
+			isa = PBXGroup;
+			children = (
+				D08B37942091737700CBDD4E /* ______UITests.m */,
+				D08B37962091737700CBDD4E /* Info.plist */,
+			);
+			path = "声网视频推流UITests";
+			sourceTree = "<group>";
+		};
+		D08B37A22091739000CBDD4E /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				D0054A70209C034A00564F68 /* CallVideo */,
+				D08B37A6209173CD00CBDD4E /* Live */,
+			);
+			path = Page;
+			sourceTree = "<group>";
+		};
+		D08B37A6209173CD00CBDD4E /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				D08B37BA2091A81100CBDD4E /* WMLiveShowViewController.h */,
+				D08B37BB2091A81100CBDD4E /* WMLiveShowViewController.m */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		D08B37AA209176E000CBDD4E /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				D0054A69209AFA4000564F68 /* Category */,
+				D08B37C02091B34100CBDD4E /* Key */,
+				D08B37B620917D8300CBDD4E /* Tools */,
+				D08B37AB209176FE00CBDD4E /* Signa */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		D08B37AB209176FE00CBDD4E /* Signa */ = {
+			isa = PBXGroup;
+			children = (
+				D08B37AD2091799F00CBDD4E /* AgoraSigKit.framework */,
+			);
+			path = Signa;
+			sourceTree = "<group>";
+		};
+		D08B37B120917A8F00CBDD4E /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				D08B37B220917AAE00CBDD4E /* WMCommonDefines.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		D08B37B620917D8300CBDD4E /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				D08B37B720917DC200CBDD4E /* WMCertificateToken.h */,
+				D08B37B820917DC200CBDD4E /* WMCertificateToken.m */,
+				D08B37BD2091B2D600CBDD4E /* WMCallVideoKey.h */,
+				D08B37BE2091B2D600CBDD4E /* WMCallVideoKey.mm */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		D08B37C02091B34100CBDD4E /* Key */ = {
+			isa = PBXGroup;
+			children = (
+				D08B37C32091B34100CBDD4E /* CallVideoUtils.h */,
+				D08B37C42091B34100CBDD4E /* DynamicKey.h */,
+				D08B37C52091B34100CBDD4E /* DynamicKey2.h */,
+				D08B37C62091B34100CBDD4E /* DynamicKey3.h */,
+				D08B37C72091B34100CBDD4E /* DynamicKey4.h */,
+			);
+			path = Key;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D08B376C2091737600CBDD4E /* 声网视频推流 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D08B37992091737700CBDD4E /* Build configuration list for PBXNativeTarget "声网视频推流" */;
+			buildPhases = (
+				4D8AB679A94DA0BFD4EE471E /* [CP] Check Pods Manifest.lock */,
+				D08B37692091737600CBDD4E /* Sources */,
+				D08B376A2091737600CBDD4E /* Frameworks */,
+				D08B376B2091737600CBDD4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "声网视频推流";
+			productName = "声网视频推流";
+			productReference = D08B376D2091737600CBDD4E /* 声网视频推流.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D08B37842091737700CBDD4E /* 声网视频推流Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D08B379C2091737700CBDD4E /* Build configuration list for PBXNativeTarget "声网视频推流Tests" */;
+			buildPhases = (
+				6191A202E33D70AD8ED4AAC0 /* [CP] Check Pods Manifest.lock */,
+				D08B37812091737700CBDD4E /* Sources */,
+				D08B37822091737700CBDD4E /* Frameworks */,
+				D08B37832091737700CBDD4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D08B37872091737700CBDD4E /* PBXTargetDependency */,
+			);
+			name = "声网视频推流Tests";
+			productName = "声网视频推流Tests";
+			productReference = D08B37852091737700CBDD4E /* 声网视频推流Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D08B378F2091737700CBDD4E /* 声网视频推流UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D08B379F2091737700CBDD4E /* Build configuration list for PBXNativeTarget "声网视频推流UITests" */;
+			buildPhases = (
+				108D74FA7F2AFF93B96A4C69 /* [CP] Check Pods Manifest.lock */,
+				D08B378C2091737700CBDD4E /* Sources */,
+				D08B378D2091737700CBDD4E /* Frameworks */,
+				D08B378E2091737700CBDD4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D08B37922091737700CBDD4E /* PBXTargetDependency */,
+			);
+			name = "声网视频推流UITests";
+			productName = "声网视频推流UITests";
+			productReference = D08B37902091737700CBDD4E /* 声网视频推流UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D08B37652091737600CBDD4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WM;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					D08B376C2091737600CBDD4E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					D08B37842091737700CBDD4E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D08B376C2091737600CBDD4E;
+					};
+					D08B378F2091737700CBDD4E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D08B376C2091737600CBDD4E;
+					};
+				};
+			};
+			buildConfigurationList = D08B37682091737600CBDD4E /* Build configuration list for PBXProject "声网视频推流" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D08B37642091737600CBDD4E;
+			productRefGroup = D08B376E2091737600CBDD4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D08B376C2091737600CBDD4E /* 声网视频推流 */,
+				D08B37842091737700CBDD4E /* 声网视频推流Tests */,
+				D08B378F2091737700CBDD4E /* 声网视频推流UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D08B376B2091737600CBDD4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0054A2A209ADE3C00564F68 /* voip_call.caf in Resources */,
+				D0054A29209ADE3C00564F68 /* voip_call.mp3 in Resources */,
+				D08B377D2091737600CBDD4E /* LaunchScreen.storyboard in Resources */,
+				D08B377A2091737600CBDD4E /* Assets.xcassets in Resources */,
+				D08B37782091737600CBDD4E /* Main.storyboard in Resources */,
+				D0054A2B209ADE3C00564F68 /* voip_calling_ring.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D08B37832091737700CBDD4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D08B378E2091737700CBDD4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		108D74FA7F2AFF93B96A4C69 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-声网视频推流UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D8AB679A94DA0BFD4EE471E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-声网视频推流-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6191A202E33D70AD8ED4AAC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-声网视频推流Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D08B37692091737600CBDD4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D08B37752091737600CBDD4E /* WMSignLoginViewController.m in Sources */,
+				D0054A6F209BEBB100564F68 /* WMTools.m in Sources */,
+				D0054A6C209AFA5100564F68 /* NSString+WMCategory.m in Sources */,
+				D08B37802091737600CBDD4E /* main.m in Sources */,
+				D08B37722091737600CBDD4E /* AppDelegate.m in Sources */,
+				D08B37BC2091A81100CBDD4E /* WMLiveShowViewController.m in Sources */,
+				D0054A73209C036300564F68 /* WMClientSignal.m in Sources */,
+				D08B37B920917DC200CBDD4E /* WMCertificateToken.m in Sources */,
+				D08B37BF2091B2D600CBDD4E /* WMCallVideoKey.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D08B37812091737700CBDD4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D08B378A2091737700CBDD4E /* ______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D08B378C2091737700CBDD4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D08B37952091737700CBDD4E /* ______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D08B37872091737700CBDD4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D08B376C2091737600CBDD4E /* 声网视频推流 */;
+			targetProxy = D08B37862091737700CBDD4E /* PBXContainerItemProxy */;
+		};
+		D08B37922091737700CBDD4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D08B376C2091737600CBDD4E /* 声网视频推流 */;
+			targetProxy = D08B37912091737700CBDD4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D08B37762091737600CBDD4E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D08B37772091737600CBDD4E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D08B377B2091737600CBDD4E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D08B377C2091737600CBDD4E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D08B37972091737700CBDD4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D08B37982091737700CBDD4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D08B379A2091737700CBDD4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71AB3AF70BE9C32A8C842076 /* Pods-声网视频推流.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Vendor/Signa",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Macro/WMCommonDefines.h";
+				INFOPLIST_FILE = "声网视频推流/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Facebook.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D08B379B2091737700CBDD4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B485204CB8A96C3D861FFE2E /* Pods-声网视频推流.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Vendor/Signa",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Macro/WMCommonDefines.h";
+				INFOPLIST_FILE = "声网视频推流/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Facebook.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D08B379D2091737700CBDD4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1E1004EA76810841BD9829D /* Pods-声网视频推流Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "声网视频推流Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Facebook.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/声网视频推流.app/声网视频推流";
+			};
+			name = Debug;
+		};
+		D08B379E2091737700CBDD4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7E81DB345111DB2CDA174F6 /* Pods-声网视频推流Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "声网视频推流Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Facebook.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/声网视频推流.app/声网视频推流";
+			};
+			name = Release;
+		};
+		D08B37A02091737700CBDD4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F671448B5633ED8D7BAE601 /* Pods-声网视频推流UITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "声网视频推流UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Facebook.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "声网视频推流";
+			};
+			name = Debug;
+		};
+		D08B37A12091737700CBDD4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CAFB2B2C25265D055555E16 /* Pods-声网视频推流UITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "声网视频推流UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Facebook.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "声网视频推流";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D08B37682091737600CBDD4E /* Build configuration list for PBXProject "声网视频推流" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D08B37972091737700CBDD4E /* Debug */,
+				D08B37982091737700CBDD4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D08B37992091737700CBDD4E /* Build configuration list for PBXNativeTarget "声网视频推流" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D08B379A2091737700CBDD4E /* Debug */,
+				D08B379B2091737700CBDD4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D08B379C2091737700CBDD4E /* Build configuration list for PBXNativeTarget "声网视频推流Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D08B379D2091737700CBDD4E /* Debug */,
+				D08B379E2091737700CBDD4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D08B379F2091737700CBDD4E /* Build configuration list for PBXNativeTarget "声网视频推流UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D08B37A02091737700CBDD4E /* Debug */,
+				D08B37A12091737700CBDD4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D08B37652091737600CBDD4E /* Project object */;
+}
