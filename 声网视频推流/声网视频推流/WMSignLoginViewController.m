@@ -75,7 +75,6 @@ static NSString *channelRoom = @"ChannelRoom";  ///房间名
     });
 }
 
-
 ///MARK: 登录
 -(void)Click:(UIButton *)sender{
     dispatch_async(dispatch_get_main_queue(), ^{

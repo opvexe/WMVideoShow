@@ -26,6 +26,7 @@
     
     [self.window makeKeyAndVisible];
     
+    NSLog(@"ceshi");
     return YES;
 }
 
